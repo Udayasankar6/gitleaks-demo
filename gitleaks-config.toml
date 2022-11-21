@@ -1,0 +1,10 @@
+title = "Gitleaks config"
+
+[extend]
+useDefault = true
+
+[allowlist]
+stopwords = [
+ 'secret1',
+ 'secret2'
+]
